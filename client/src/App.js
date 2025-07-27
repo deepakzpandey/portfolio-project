@@ -5,7 +5,7 @@ import Header from './components/Header';
 import ProjectForm from './components/ProjectForm';
 import ProjectList from './components/ProjectList';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'http://portfolio-backend-api-cwe5h7cee7fee5dd.westindia-01.azurewebsites.net';
 
 function App() {
   const [projects, setProjects] = useState([]);
